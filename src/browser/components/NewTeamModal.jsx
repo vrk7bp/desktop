@@ -165,7 +165,7 @@ class NewTeamModal extends React.Component {
                 onChange={this.handleTeamUrlChange.bind(this)}
               />
               <FormControl.Feedback/>
-              <HelpBlock className='NewTeamModal-noBottomSpace'>{'The URL of your Mattermost server. Must start with http:// or https://.'}</HelpBlock>
+              <HelpBlock className='NewTeamModal-noBottomSpace'>{'The URL of your Scrybe server. Must start with http:// or https://.'}</HelpBlock>
             </FormGroup>
           </form>
         </Modal.Body>

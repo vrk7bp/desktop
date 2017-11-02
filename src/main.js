@@ -22,7 +22,7 @@ process.on('uncaughtException', (error) => {
 
 global.willAppQuit = false;
 
-app.setAppUserModelId('com.squirrel.mattermost.Mattermost'); // Use explicit AppUserModelID
+app.setAppUserModelId('com.squirrel.scrybe.Scrybe'); // Use explicit AppUserModelID
 if (squirrelStartup()) {
   global.willAppQuit = true;
 }

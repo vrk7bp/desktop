@@ -1,5 +1,5 @@
 {
-  "appId": "com.mattermost.desktop",
+  "appId": "com.scrybe.desktop",
   "directories": {
     "buildResources": "resources",
     "app": "src",
@@ -22,12 +22,12 @@
   ],
   "protocols": [
     {
-      "name": "Mattermost",
+      "name": "Scrybe",
       "schemes": ["mattermost"]
     }
   ],
   "deb": {
-    "synopsis": "Mattermost"
+    "synopsis": "Scrybe"
   },
   "linux": {
     "category": "InstantMessaging",
